@@ -1,0 +1,19 @@
+_target_: pytorch_lightning.Trainer
+
+# set `1` to train on GPU, `0` to train on CPU only
+gpus: 1
+
+min_epochs: 1
+max_epochs: 10
+weights_summary: null
+progress_bar_refresh_rate: 10
+precision: 16
+val_check_interval: 0.2
+auto_lr_find: True
+# reload_dataloaders_every_epoch: True
+num_sanity_val_steps: 0
+accumulate_grad_batches: 4
+# amp_backend: 'apex'
+# amp_level: 'O2'
+# log_gpu_memory: 'min_max'
+# resume_from_checkpoint: "/opt/ml/code/pytorch_lightning_examples/2_QA/logs/runs/2021-05-14/05-29-48/checkpoints/last.ckpt"

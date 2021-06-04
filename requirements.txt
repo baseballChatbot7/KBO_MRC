@@ -1,0 +1,38 @@
+# --------- pytorch --------- #
+# torch==1.6.0
+# torchvision==0.7.0
+pytorch-lightning>=1.2.10
+torchmetrics
+ipywidgets==7.4.2
+transformers
+datasets
+# pycocotools==2.0.2
+# cudatoolkit==10.1
+optuna==2.4.0
+# pandas==1.2.1
+# scikit-learn==0.24.1
+# psycopg2==2.8.6
+# --------- hydra --------- #
+hydra-core==1.1.0.dev5
+hydra-colorlog==1.1.0.dev1
+hydra-optuna-sweeper==1.1.0.dev1
+# hydra-ray-launcher==0.1.2
+# hydra-submitit-launcher==1.1.0
+
+# --------- loggers --------- #
+wandb>=0.10.26
+# neptune-client
+# comet-ml
+# mlflow
+
+# --------- others --------- #
+rich
+python-dotenv
+pytest
+pre-commit
+# scikit-learn
+# pandas
+# matplotlib
+# seaborn
+# pudb
+# dvc
